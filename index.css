@@ -1,0 +1,272 @@
+body{
+    background-image: url('./bois.jpg') ;
+    font-family: "Trebuchet MS";
+    align-items: center;
+}
+
+article,aside,footer{
+  box-shadow: 0px 2px 5px;
+  color:#1c1a19;
+  border-radius: 5px;
+
+}
+
+li{
+    list-style-type: none;
+    float: left;
+  
+ }
+ul{
+  position: absolute;
+  right: 30px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.ahref{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  text-decoration: double;
+  color: black;
+
+}
+main{
+  margin-left: 62px;
+}
+
+
+#mymain {
+  display: flex;
+}
+
+#chambrediv {
+  flex-grow: 1;
+}
+
+a:hover{
+  color: #046380;
+  border: 3px solid #046380;
+}
+
+.banner {
+    align-items: center;
+    background-size: cover ;
+    overflow: hidden;
+    height: 34em;
+    width:84% ;
+    border-radius: 12px;
+    margin-left: 9%;
+}
+#enfants, #adulte{
+  font-size: 30px;
+  width: 52px;  
+  margin-right: 20px; 
+  margin-bottom: 2px;
+}
+
+
+nav{
+  display: inline-flex;
+  margin: 20px;
+  padding-left: 45px;
+
+}
+.flex-container {
+    display: flex;
+    margin: 20px;
+    padding-left: 45px;
+
+  }
+  .flex-containerr{
+    display: flex;
+    
+  }
+  .flex-containerr > div {
+    margin: 10px;
+    padding: 10px;  
+
+  }
+  .flex-container > div {
+    border-radius: 10px;
+  }
+
+ article{
+    width: 850px;
+    background-color: #FFC300;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px #1c1a19;
+    
+  }
+  aside{
+    margin: 10px;
+    padding: 10px;
+    background-color: #706b64;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .asidetwo{
+    width: 300px;
+  }
+  .long{
+    height: 512px;
+  }
+
+  .longe{
+    height: 500px;
+  }
+
+#tunis{
+  float: left;
+  margin-left: -20px;
+}
+
+.text1{
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+input {
+  border:1px silver;
+  border-radius: 3px;
+  font-family: 1.2em;
+
+}
+.text2{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+#ville{
+  width: 99%;
+  height: 50px;
+}
+
+#nom ,#prenom,#age,#tel,#adr,#email{
+  display: block;
+	width: 200px;
+  height: 25px;
+	float: right;
+  border-radius: 4px;
+}
+
+input[type="date"]
+  {
+    width: 250px;
+    height: 35px;
+    }
+
+    .bluediv {
+      flex-grow: 2;    }
+
+select {
+  height: 30px;
+  width: 40%;
+}  
+span{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #046380;
+  font-size: 50px;
+}
+em{
+  text-shadow: 0px 4px 4px;
+
+}
+
+.voir{
+  background-color: #046380;
+  color:white;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size:  1.5em;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.inscrire{
+  background-color: #FFC300;
+  color:black;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer{
+  background-color: black;
+  margin: 20px 20px;
+  text-align: center;
+  opacity: 0.2;
+  border-radius: 20px;
+  width: 84%;
+  margin-left: 133px;
+  height: 24px;
+}
+
+.chercher{
+  color: white;
+  display: inline-flex;
+  margin-top: -22px;
+}
+
+.nospromo{
+  background-color: yellow;
+}
+
+.cinqimg{
+  margin-top: 25px;
+  position: absolute;
+  right: 60px;
+  width: 300px;
+  display: flex;
+}
+
+.navtwo{
+    display: inline-flex;
+    margin: 20px;
+    padding-left: 45px;
+  }
+
+  .promosection{
+    background-color: white;
+  }
+
+  .imges{
+    display: flex;
+  }
+
+  #img1{
+    width: 33%;
+    
+  }
+
+  .voirDetails{
+    float: right;
+  }
+
+  #img2{
+    width: 33%;
+  }

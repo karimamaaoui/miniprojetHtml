@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <h1><span> <em>Tourisme </em> en <em>Tunisie</em> </span></h1>
+            <ul>
+                <li><a href="index.html" class="ahref"><b>Accueil</b></a></li>
+                <li>
+                    <a href="voyagesOrg.html" class="ahref"><b>Voyages Organisés</b></a>
+                </li>
+                <li> <a href="promos.html" class="ahref"><b>PROMOS</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+    <div class="banner">
+        <img src="tunisie.jpg" alt="">
+    </div>
+    <div class="flex-container">
+        <div>
+            <main>
+                <section>
+                    <article>
+                        <div class="longe">
+                            <form method="post" class="form1" action="destination.php">
+                                <h1 class="text1">Choissiez Votre Destination !</h1>
+                                <div class="flex-containerr">
+                                    <div style="flex-grow: 34;">
+
+                                        <input type="radio" name="tunisie" value="tunisie" id="tunis" checked>
+                                        <label for="tunis">seulement en Tunisie</label>
+                                    </div>
+                                    <div class="rdio" style="flex-grow: 1">
+
+                                        <input type="radio" name="sdmonde" value="sdmonde" id="sdmonde">
+                                        <label for="sdmonde">dans le monde</label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="text" name="ville" id="ville" required
+                                        placeholder="ex. ville,region,quartier ou hotel" />
+                                    <br /> <br />
+
+                                    <div id="myDIV">
+                                        <div id="mymain">
+                                            <label for="du">Du </label>
+                                            <input type="date" name="du" required id="du" class="bluediv" />
+
+                                            <label for="au">Au </label>
+                                            <input type="date" name="au" required id="au" class="bluediv"/>
+                                        </div>
+                                    </div> <br />
+                                    <div id="myDIV">
+                                        <div id="mymain">
+                                            <div id="chambrediv">
+                                                <div id="space">
+
+                                                    <label for="cham">Chambre :</label>
+
+                                                    <select name="cham" id="cham">
+                                                        <option value="Double" selected>Double</option>
+                                                        <option value="Triple">Triple</option>
+                                                        <option value="Suite junior">Suite junior</option>
+
+                                                    </select>
+                                                </div>
+
+
+                                            </div>
+                                            <div>
+                                                <label for="adulte" id="adul">Adultes</label>
+                                                <input type="number" name="adulte" id="adulte" required>
+                                                <label for="enfants">Enfants</label>
+                                                <input type="number" name="enfants" id="enfants" required>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <fieldset id="pref">
+                                        <legend>Vos préférences</legend>
+                                        <br>
+                                        <input type="checkbox" name="surmer" id="surmer"> <label for="surmer">Vue sur
+                                            mer</label>
+                                        <input type="checkbox" name="sup" id="sup"> <label for="sup">Supplément
+                                            single</label>
+
+                                    </fieldset>
+                                    <br />
+
+
+
+                                    <input type="submit" value="Voir les  tarifs" class="voir">
+
+                                    <p>
+                                        Réservez maintenant et payes votre séjour ! L'annulation est toujours GRATUITE!
+                                    </p>
+
+                            </form>
+
+                        </div>
+                    </article>
+                </section>
+            </main>
+        </div>
+        <div>
+            <aside class="bord">
+                <div class="long">
+
+                    <form method="post" class="form2" action="newsletter.php">
+                        <h1 class="text2">
+                            RECERVEZ NOTRE NEWSLETTER
+                        </h1>
+                        <br>
+                        <label for="nom">Nom *</label>
+                        <input type="text" name="nom" required id="nom" />
+                        <br /> <br />
+                        <br />
+                        <label for="nom">Prenom *</label>
+                        <input type="text" name="prenom" required id="prenom" placeholder="votre prenom" />
+                        <br />
+                        <br />
+                        <br />
+                        <label for="age">Date naissance </label>
+                        <input type="date" name="date" id="age" />
+                        <br />
+                        <br />
+                        <br />
+                        <label for="tel">Tel </label>
+                        <input type="tel" name="tel" id="tel" />
+                        <br />
+                        <br />
+                        <br />
+                        <label for="adr">Adresse* </label>
+                        <input type="text" name="adresse" required id="adr" />
+                        <br />
+                        <br />
+                        <br />
+                        <label for="email">Email </label>
+                        <input type="email" name="email" required id="email" />
+                        <br />
+                        <br /> <br />
+                        <p>Les champs marqué par * sont requis</p>
+
+
+                        <input type="submit" value="S'inscrire" class="inscrire">
+                    </form>
+
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </div>
+    <footer>
+        <p class="chercher">
+            Vous cherchez un hotel particulier ?
+            <input type="search">
+        </p>
+    </footer>
+
+
+</body>
+
+</html>
